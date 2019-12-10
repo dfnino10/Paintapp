@@ -37,6 +37,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage" : "https://obscure-everglades-85587.herokuapp.com/",
   "proxy" : "http://localhost:4000"
 }
