@@ -65,7 +65,7 @@ class Canvas extends Component {
       userId: this.userId,
     };
 
-    const req = await fetch('wss://localhost:4000/paint', {
+    const req = await fetch('http://localhost:4000/paint', {
       method: 'post',
       body: JSON.stringify(body),
       headers: {
